@@ -1,0 +1,146 @@
+
+
+.header{
+    display: flex;
+    padding: 20px; 
+
+}
+
+.icon{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.motor{
+    margin-left: 15px;
+}
+
+.top{
+    background-color: lightblue;
+}
+
+.top2{
+    margin-left: 15px;
+}
+
+.input1{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.city{
+    margin-left: 100px;
+}
+
+.set{
+    margin-top: -7px;
+}
+
+.ads{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.searching{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.img1{
+    height: 50%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.icon1{
+display: flex;
+justify-content: space-around;
+
+}
+
+.check{
+    display: flex;
+}
+
+.buttondel{
+    text-align: right;
+    margin-left: 100px;
+}
+
+ .hover:hover{
+    transform: scale(1.3);
+    transition: 1s;
+} 
+
+.login{
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    text-align: right;
+}
+
+.container{
+    position: absolute;
+    left: 45%;
+    top: 500%;
+    border: 1px solid grey;
+    width: 80vh;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+    background-color: white;
+    opacity: 1;
+}
+
+.add{
+    margin-top: 10px;
+}
+
+.Avatar{
+    margin-top: -20px;
+}
+
+.addproduct{
+    position: relative;
+    margin-top: 100px;
+    width: 80vh;
+    height: 55vh;
+    left: 30%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+.email{
+    width: 300px;
+}
+
+
+#show:checked ~ .container{
+display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.logup{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -75px;
+    right: 200px;
+    font-size: large;
+    font-weight: bold;
+    
+}
